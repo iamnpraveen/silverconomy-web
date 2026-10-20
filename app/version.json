@@ -1,1 +1,1 @@
-{ "versionCode": 8, "versionName": "1.4.2", "apkUrl": "https://iamnpraveen.github.io/silverconomy-web/app/silverconomy-1.4.2.apk", "notes": "Fix: booked visits now go to the chosen Care Giver" }
+{ "versionCode": 9, "versionName": "1.4.3", "apkUrl": "https://iamnpraveen.github.io/silverconomy-web/app/silverconomy-1.4.3.apk", "notes": "Health check saves with clear messages; Medicines tab lets Care Givers add medicines; daily tasks and hourly rate on the Silver's page; every visit shows its address; visits cannot be billed twice; clearer 'Still needed' hints." }
