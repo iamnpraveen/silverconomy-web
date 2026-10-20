@@ -1,1 +1,1 @@
-{ "versionCode": 7, "versionName": "1.4.1", "apkUrl": "https://iamnpraveen.github.io/silverconomy-web/app/silverconomy-1.4.1.apk", "notes": "Invitations open the app directly; signing in carries over from the web" }
+{ "versionCode": 8, "versionName": "1.4.2", "apkUrl": "https://iamnpraveen.github.io/silverconomy-web/app/silverconomy-1.4.2.apk", "notes": "Fix: booked visits now go to the chosen Care Giver" }
