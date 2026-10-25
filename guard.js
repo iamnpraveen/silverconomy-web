@@ -19,7 +19,7 @@ if (window.top !== window.self) {
   var stores = window.CARELINK_STORES || {}
   var web = window.location.origin + window.location.pathname + '?web=1' + hash
   var appLink = android
-    ? 'intent://join' + hash + '#Intent;scheme=silverconomy;package=com.moolya.silverconomy;S.browser_fallback_url=' + encodeURIComponent(stores.android || web) + ';end'
+    ? 'intent://join' + hash + '#Intent;scheme=silverconomy;package=app.silverconomy;S.browser_fallback_url=' + encodeURIComponent(stores.android || web) + ';end'
     : 'silverconomy://join' + hash
   function openApp() { window.location.href = appLink }
   function stayHere() { window.location.replace(web) }
