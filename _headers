@@ -1,7 +1,7 @@
 # Response headers for hosts that support a _headers file (Cloudflare Pages, Netlify). GitHub Pages ignores this file;
 # the same Content-Security-Policy is also set in index.html so it applies everywhere.
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://kncyiaxbyfthobvfwugf.supabase.co wss://kncyiaxbyfthobvfwugf.supabase.co; manifest-src 'self'; worker-src 'self' blob:; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://kncyiaxbyfthobvfwugf.supabase.co wss://kncyiaxbyfthobvfwugf.supabase.co https://api.postalpincode.in; manifest-src 'self'; worker-src 'self' blob:; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
