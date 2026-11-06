@@ -3,7 +3,7 @@
   "short_name": "Silverconomy",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#2E6B3A",
-  "theme_color": "#2E6B3A",
+  "background_color": "#F8CB46",
+  "theme_color": "#F8CB46",
   "icons": [{ "src": "logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
 }
