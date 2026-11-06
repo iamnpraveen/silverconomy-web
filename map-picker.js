@@ -22,15 +22,15 @@
     window.__silverPlace = undefined
     var key = window.SILVER_MAPS_KEY
     if (!key) { window.__silverPlace = ''; return }
-    var shade = el('div', 'position:fixed;inset:0;z-index:2147483000;background:#F7F3E9;font-family:Figtree,system-ui,sans-serif')
+    var shade = el('div', 'position:fixed;inset:0;z-index:2147483000;background:#FFFFFF;font-family:Figtree,system-ui,sans-serif')
     var mapBox = el('div', 'position:absolute;inset:0 0 190px 0')
     var pin = el('div', 'position:absolute;left:50%;top:calc((100% - 190px)/2);transform:translate(-50%,-100%);font-size:42px;pointer-events:none', '📍')
-    var panel = el('div', 'position:absolute;left:0;right:0;bottom:0;height:190px;box-sizing:border-box;padding:18px 20px;background:#FFFDF7;border-radius:22px 22px 0 0;box-shadow:0 -4px 16px rgba(0,0,0,.08)')
-    var title = el('div', 'font-weight:700;font-size:18px;color:#2B2418', 'Your home on the map')
-    var addr = el('div', 'margin:8px 0 14px;font-size:15px;color:#2B2418;min-height:38px', 'Finding your location…')
+    var panel = el('div', 'position:absolute;left:0;right:0;bottom:0;height:190px;box-sizing:border-box;padding:18px 20px;background:#FFFFFF;border-radius:22px 22px 0 0;box-shadow:0 -4px 16px rgba(0,0,0,.08)')
+    var title = el('div', 'font-weight:700;font-size:18px;color:#1C1C1C', 'Your home on the map')
+    var addr = el('div', 'margin:8px 0 14px;font-size:15px;color:#1C1C1C;min-height:38px', 'Finding your location…')
     var row = el('div', 'display:flex;gap:10px')
-    var cancel = el('button', 'flex:1;height:48px;border-radius:14px;border:1px solid #CFC6B2;background:transparent;color:#2E6B3A;font-size:15px', 'Cancel')
-    var confirm = el('button', 'flex:2;height:48px;border-radius:14px;border:0;background:#2E6B3A;color:#fff;font-size:16px;font-weight:600;opacity:.5', 'Confirm location')
+    var cancel = el('button', 'flex:1;height:48px;border-radius:14px;border:1px solid #DDDDDD;background:transparent;color:#1C1C1C;font-size:15px', 'Cancel')
+    var confirm = el('button', 'flex:2;height:48px;border-radius:14px;border:0;background:#F8CB46;color:#1C1C1C;font-size:16px;font-weight:600;opacity:.5', 'Confirm location')
     row.appendChild(cancel); row.appendChild(confirm)
     panel.appendChild(title); panel.appendChild(addr); panel.appendChild(row)
     shade.appendChild(mapBox); shade.appendChild(pin); shade.appendChild(panel)

@@ -30,12 +30,12 @@ if (window.top !== window.self) {
     if (document.getElementById('open-app-card')) return
     var d = document.createElement('div')
     d.id = 'open-app-card'
-    d.setAttribute('style', 'position:fixed;inset:0;z-index:99999;background:#2E6B3A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px;font-family:-apple-system,Roboto,Arial,sans-serif;color:#fff;text-align:center')
+    d.setAttribute('style', 'position:fixed;inset:0;z-index:99999;background:#F8CB46;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px;font-family:-apple-system,Roboto,Arial,sans-serif;color:#1C1C1C;text-align:center')
     d.innerHTML = '<img src="logo.svg" width="72" height="72" alt="">' +
       '<div style="font:600 24px Georgia,serif">Opening Silverconomy…</div>' +
-      '<div style="font-size:15px;color:#FFF0B8;max-width:320px">If the app is on this phone, it opens and you carry on there.</div>' +
-      '<button id="oa-open" style="margin-top:8px;width:100%;max-width:320px;padding:15px;border:0;border-radius:14px;background:#FBF4E3;color:#2E6B3A;font-size:16px;font-weight:700">Open the app</button>' +
-      '<button id="oa-web" style="width:100%;max-width:320px;padding:13px;border:1px solid #CFE3C8;border-radius:14px;background:transparent;color:#fff;font-size:15px">Continue in the browser</button>'
+      '<div style="font-size:15px;color:#4A4A4A;max-width:320px">If the app is on this phone, it opens and you carry on there.</div>' +
+      '<button id="oa-open" style="margin-top:8px;width:100%;max-width:320px;padding:15px;border:0;border-radius:14px;background:#1C1C1C;color:#FFFFFF;font-size:16px;font-weight:700">Open the app</button>' +
+      '<button id="oa-web" style="width:100%;max-width:320px;padding:13px;border:1px solid #1C1C1C;border-radius:14px;background:transparent;color:#1C1C1C;font-size:15px">Continue in the browser</button>'
     document.body.appendChild(d)
     document.getElementById('oa-open').onclick = openApp
     document.getElementById('oa-web').onclick = stayHere
