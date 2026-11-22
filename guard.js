@@ -5,7 +5,7 @@ if (window.top !== window.self) {
 }
 
 // Links meant for the phone app (an invitation "#invite=…&k=…", or a sign-in handed over from the web "#access_token=…"):
-// on a phone, open the Silverconomy app when it is installed and carry the link into it, so the person continues there without
+// on a phone, open the HereVR app when it is installed and carry the link into it, so the person continues there without
 // signing in again. If the app is not installed (or the browser blocks the jump), the web app carries on right here.
 // A short card is also shown with "Open the app" / "Continue in the browser", because some in-app browsers (Gmail) only allow the
 // jump after a tap. On a computer the web app simply opens.
@@ -32,7 +32,7 @@ if (window.top !== window.self) {
     d.id = 'open-app-card'
     d.setAttribute('style', 'position:fixed;inset:0;z-index:99999;background:#F8CB46;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px;font-family:-apple-system,Roboto,Arial,sans-serif;color:#1C1C1C;text-align:center')
     d.innerHTML = '<img src="logo.svg" width="72" height="72" alt="">' +
-      '<div style="font:600 24px Georgia,serif">Opening Silverconomy…</div>' +
+      '<div style="font:600 24px Georgia,serif">Opening HereVR…</div>' +
       '<div style="font-size:15px;color:#4A4A4A;max-width:320px">If the app is on this phone, it opens and you carry on there.</div>' +
       '<button id="oa-open" style="margin-top:8px;width:100%;max-width:320px;padding:15px;border:0;border-radius:14px;background:#1C1C1C;color:#FFFFFF;font-size:16px;font-weight:700">Open the app</button>' +
       '<button id="oa-web" style="width:100%;max-width:320px;padding:13px;border:1px solid #1C1C1C;border-radius:14px;background:transparent;color:#1C1C1C;font-size:15px">Continue in the browser</button>'
